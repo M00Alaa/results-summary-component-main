@@ -63,7 +63,7 @@ ul {
 
 .left {
     width: 45%;
-    background-color: var(--bg-light-royal-blue);
+    background-image: linear-gradient(#6542FE, #342CE2);
     border-radius: 12px;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
@@ -95,7 +95,7 @@ ul {
 .left .circle {
     width: 150px;
     height: 150px;
-    background-color: var(--circle-violet-blue);
+    background-image: linear-gradient(#342CE2, #6542FE);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
