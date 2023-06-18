@@ -27,6 +27,10 @@
 body {
     font-family: 'Hanken Grotesk', sans-serif;
     background-color: #eee;
+
+    display: flex;
+    align-items: center;
+    height: 100vh;
 }
 
 ul {
@@ -42,7 +46,7 @@ ul {
     -moz-border-radius: 12px;
     -ms-border-radius: 12px;
     -o-border-radius: 12px;
-    margin: 50px auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     box-shadow: 5px 5px 15px #00000045;
