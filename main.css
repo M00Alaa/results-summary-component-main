@@ -26,7 +26,6 @@
 
 body {
     font-family: 'Hanken Grotesk', sans-serif;
-    background-color: #eee;
 
     display: flex;
     align-items: center;
@@ -41,15 +40,15 @@ ul {
     background-color: var(--white);
     width: 768px;
     height: 500px;
-    border-radius: 12px;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    -ms-border-radius: 12px;
-    -o-border-radius: 12px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    box-shadow: 5px 5px 15px #00000045;
+    box-shadow: 5px 8px 15px #00000045;
 }
 
 @media(max-width : 767px) {
@@ -62,18 +61,16 @@ ul {
 }
 
 .left {
-    width: 45%;
+    width: 50%;
     background-image: linear-gradient(#6542FE, #342CE2);
-    border-radius: 12px;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    -ms-border-radius: 12px;
-    -o-border-radius: 12px;
-
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-
     padding: 0 30px;
     text-align: center;
 }
@@ -132,7 +129,7 @@ ul {
 }
 
 .right {
-    width: 50%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
